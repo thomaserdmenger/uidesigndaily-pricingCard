@@ -9,6 +9,7 @@ const checkTwoChecked = document.querySelector(".checked-two")
 const checkTwoUnchecked = document.querySelector(".unchecked-two")
 
 // -- CHANGE CHECKBOX ICON --
+// Box one
 const checkboxOneFn = () => {
   const handleClick = () => {
     if (checkOneChecked.className.includes("hidden")) {
@@ -24,6 +25,7 @@ const checkboxOneFn = () => {
 }
 checkboxOneFn()
 
+// Box Two
 const checkboxTwoFn = () => {
   const handleClick = () => {
     if (checkTwoChecked.className.includes("hidden")) {
