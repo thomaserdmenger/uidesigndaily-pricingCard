@@ -38,12 +38,16 @@
 
       <!-- First button -->
       <button
-        class="flex w-[30.625rem] cursor-pointer items-center justify-start rounded-lg border-4 border-solid border-color1 px-14 py-10 outline-none focus:border-2 focus:border-blue-700"
+        class="checkbox-one flex w-[30.625rem] cursor-pointer items-center justify-start rounded-lg border-2 border-solid border-color1 px-14 py-10 outline-none focus:border-2 focus:border-blue-700"
       >
-        <div class="hidden">
+        <div class="checked-one mr-6 hidden">
           <i class="fa-solid fa-circle-check text-4xl"></i>
         </div>
-        <div class="mr-6"><i class="fa-regular fa-circle text-4xl"></i></div>
+
+        <div class="unchecked-one mr-6">
+          <i class="fa-regular fa-circle text-4xl"></i>
+        </div>
+
         <div class="flex flex-col items-start">
           <h2 class="font-poppins text-lg uppercase">Mounthly</h2>
           <span class="block text-2xl font-medium">4 weeks for free</span>
@@ -53,12 +57,14 @@
 
       <!-- Second button -->
       <button
-        class="mt-4 flex w-[30.625rem] cursor-pointer items-center justify-start rounded-lg border-4 border-solid border-color1 px-14 py-10 outline-none focus:border-2 focus:border-blue-700"
+        class="checkbox-two mt-4 flex w-[30.625rem] cursor-pointer items-center justify-start rounded-lg border-2 border-solid border-color1 px-14 py-10 outline-none focus:border-2 focus:border-blue-700"
       >
-        <div class="hidden">
+        <div class="checked-two mr-6">
           <i class="fa-solid fa-circle-check text-4xl"></i>
         </div>
-        <div class="mr-6"><i class="fa-regular fa-circle text-4xl"></i></div>
+        <div class="unchecked-two mr-6 hidden">
+          <i class="fa-regular fa-circle text-4xl"></i>
+        </div>
         <div class="flex flex-col items-start">
           <div
             class="mb-2 rounded-full bg-blue-800 px-4 py-1 text-lg font-medium text-white"
